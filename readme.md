@@ -4,10 +4,10 @@
 
 ## Over
 * **Naam:** Nancy Herwegh
-* **Klas:** `vid-1/vid-2`
-* **Minor:** `Visual Interface Design`
-* **Favoriete dier:** `Zeeotters zijn te gek!`
-* **Startniveau:** `blauw/rood/zwart`
+* **Klas:** vid-1
+* **Minor:** Visual Interface Design
+* **Favoriete dier:** Honden en pinguïns
+* **Startniveau:** Een heel erge beginner
 
 ## Concept
 
