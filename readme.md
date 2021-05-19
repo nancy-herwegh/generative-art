@@ -4,7 +4,7 @@
 
 ## Over
 * **Naam:** Nancy Herwegh
-* **Klas:** vid-1
+* **Klas:** vid-1A
 * **Minor:** Visual Interface Design
 * **Favoriete dier:** Honden
 * **Startniveau:** Beginner
@@ -17,17 +17,38 @@ Mijn concept is dat ik muziek wil visualiseren met bijpassende lyrics teksten, k
 `Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
 ## Onderzoek & inspiratie
-Het concept vormde zich naar mate ik nadacht over vormen en wat hierbij zou kunnen passen. 
+Het concept vormde zich naar mate ik nadacht over vormen en wat hierbij zou kunnen passen. De uitwerking hiervoor zag ik als volgt voor me:
+STAP 1:
+Tekst op het scherm: ‘music can change your mood’. Deze tekst staat gecentreerd en blijft op de achtergrond staan achter het artwork.
+
+STAP 2:
+Zodra je op de spatiebalk tikt veranderd de tekst.
+
+STAP 3:
+Zodra je met je muis (in de vorm van een muzieknoot emoji) in het scherm beweegt komen er golvende vloeiende lijnen in beeld in verschillende kleuren.
+
+STAP 4:
+Als je klikt in het scherm vervormen de golvende lijnen zich naar spiralen.
+
+STAP 5:
+Zodra je weer klikt op het scherm vervormen (morphe) de spiralen zich naar golvende lijnen.
+
+
+De bewegingen die ik basseer op het concept zijn:
+•	Spiralen (muziek kan je uit een negatieve spiraal halen)
+•	Golvende lijnen die overal in het scherm naar toe gaan maar waar je geen einde ziet (muziek is iets wat je altijd/ overal kunt luisteren)
+•	Rechte lijnen als een muziekblad die licht gaan golven zodra je er met je muis overheen gaat.  
+•	Een muzieknoot ‘morphen’ naar een andere noot.
+
+Kleur: vrolijke en bijzondere kleuren als turquoise, beige, limegroen, perzik, lichtroze etc. Hierdoor wordt het artwork wat exclusiever. 
 
 ## Voortang
 
-`Schrijf hier een klein logboekje met je voortgang per week.`
-
 ### Week-1
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+Ik ben begonnen met het uitzoeken wat generative art precies is en ik heb gekeken naar voorbeelden. Ik vond het gelijk al erg lastig, mede doordat alle lesstof in het Engels gegeven werd. Hierdoor begrijp ik het taaltje nog steeds niet helemaal. Afkortingen, benamingen, noem het maar op. Ook worden er hele andere variabelen en code gebruikt dan in CSS/ HTML. Dat vind ik lastig en zeer verwarrend, aangezien ik net CSS/ HTML een beetje onder de knie heb. Doordat ik het lastig vind en het lastig oppik, ben ik in deze week nog niet begonnen met het maken van een artwork. 
 
 ### Week-2
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+Veel naar mogelijkheden en voorbeelden gekeken op 
 
 ### Week-3
 `Wat heb je gedaan? Wat ging goed? Wat kon beter?`
