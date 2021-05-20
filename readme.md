@@ -59,7 +59,7 @@ Er zijn veel mogelijkheden en toepassingen binnen P5. Ook merkte ik dat mijn sta
 Ik heb daarom ook het idee voor mijn artwork wat aangepast. Ik heb gekozen voor een soort van muziekplaat die voor de helft in het scherm aan het draaien is in de vorm van bewegende ringen. Deze ringen komen op meerdere plekken in het artwork terug en zijn dan ook geinspireerd uit de 'muziekplaat'. Dit is uiteindelijk gelukt alleen kon ik mijn interactieve element niet toevoegen aan mijn basisbestand.
 
 ### Opleverweek
-Uiteindelijk is het mij helaas nog steeds niet gelukt (wegens tijdtekort) om het interactieve gedeelte in het centrale bestand te zetten.
+Uiteindelijk is het mij helaas nog steeds niet gelukt (wegens tijdtekort) om het interactieve gedeelte in het centrale bestand te zetten. De code van de interactieve ring/ cirkel is wel het centrale artwork te vinden, alleen werkt dit niet op het previewscherm. 
 
 De twee artworks zijn hier te bekijken:
 https://editor.p5js.org/nancyherwegh/sketches
