@@ -1,4 +1,3 @@
-<!-- Vergeet je niet de comments uit te zetten voordat je begint met typen? 💬 -->
 
 # Procesverslag
 
@@ -17,16 +16,16 @@ Mijn concept is dat ik muziek wil visualiseren met bijpassende lyrics teksten, k
 `Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
 ## Onderzoek & inspiratie
-Het concept vormde zich naar mate ik nadacht over vormen en wat hierbij zou kunnen passen. De uitwerking hiervoor zag ik als volgt voor me
+Het concept vormde zich naar mate ik nadacht over vormen en wat hierbij zou kunnen passen. De uitwerking hiervoor zag ik als volgt voor me:
 
 STAP 1:
-Tekst op het scherm: ‘music can change your mood’. Deze tekst staat gecentreerd en blijft op de achtergrond staan achter het artwork.
+Tekst op het scherm: ‘music is a mood changer’. Deze tekst staat gecentreerd en blijft op de achtergrond staan achter het artwork.
 
 STAP 2:
 Zodra je op de spatiebalk tikt veranderd de tekst.
 
 STAP 3:
-Zodra je met je muis (in de vorm van een muzieknoot emoji) in het scherm beweegt komen er golvende vloeiende lijnen in beeld in verschillende kleuren.
+Zodra je met je muis in het scherm beweegt komen er golvende vloeiende lijnen in beeld in verschillende kleuren.
 
 STAP 4:
 Als je klikt in het scherm vervormen de golvende lijnen zich naar spiralen.
@@ -57,7 +56,7 @@ Toch maar begonnen in P5 en wat gaan proberen. Veel lukte niet, aangezien ik het
 ### Week-4
 Er zijn veel mogelijkheden en toepassingen binnen P5. Ook merkte ik dat mijn stappenplan en concept uitwerking best ambitieus was voor een beginner die eigenlijk nog steeds vrij weinig van de code begrijpt. Het is jammer dat ik hierdoor beperkt wordt in m'n artwork en creativiteit. 
 
-Ik heb daarom ook het idee voor mijn artwork wat aangepast. Ik heb gekozen voor een soort van muziekplaat die voor de helft in het scherm aan het draaien is. 
+Ik heb daarom ook het idee voor mijn artwork wat aangepast. Ik heb gekozen voor een soort van muziekplaat die voor de helft in het scherm aan het draaien is in de vorm van bewegende ringen. Deze ringen komen op meerdere plekken in het artwork terug en zijn dan ook geinspireerd uit de 'muziekplaat'.
 
 
 ## Bronnenlijst
@@ -65,4 +64,4 @@ Ik heb daarom ook het idee voor mijn artwork wat aangepast. Ik heb gekozen voor 
 * https://p5js.org/reference/ 
 * Videos van The Coding Train op YouTube
 * https://www.notion.so/Creative-coding-algorithms-techniques-c5550ef2f7574126bdc77b09ed76651b
-* 
+* https://p5js.org/reference/#/p5/random
