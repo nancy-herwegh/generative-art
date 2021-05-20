@@ -51,7 +51,7 @@ Ik ben begonnen met het uitzoeken wat generative art precies is en ik heb gekeke
 Veel naar mogelijkheden en voorbeelden gekeken op https://p5js.org/reference/ en op het internet. Ook YouTube tutorials bekeken, alleen raakte ik hiervan in een too-much-information bubble. Ik heb ook mijn concept uitgeschreven, dit hielp mij doordat ik zo een beeld had van het artwork wat ik wil gaan maken.
 
 ### Week-3
-Toch maar begonnen in P5 en wat gaan proberen. Veel lukte niet, aangezien ik het lastig vind om de juiste code te schrijven. Ik heb vooral losse artworks gemaakt in verschillende P5 bestanden. Een tekst, een spiraal. Het is mij nog niet gelukt dit samen te voegen. 
+Toch maar begonnen in P5 en wat gaan proberen. Veel lukte niet, aangezien ik het lastig vind om de juiste code te schrijven. Ook heb ik hele dagen onderzoek gedaan en dingen uitgeprobeert om vervolgens met nog steeds met een wit canvas te eindigen. Ik heb vooral losse artworks gemaakt in verschillende P5 bestanden. Een tekst, een spiraal en wat andere beginsels. Het is mij nog niet gelukt dit samen te voegen. 
 
 ### Week-4
 Er zijn veel mogelijkheden en toepassingen binnen P5. Ook merkte ik dat mijn stappenplan en concept uitwerking best ambitieus was voor een beginner die eigenlijk nog steeds vrij weinig van de code begrijpt. Het is jammer dat ik hierdoor beperkt wordt in m'n artwork en creativiteit. 
