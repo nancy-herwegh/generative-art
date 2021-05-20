@@ -13,7 +13,7 @@ Mijn concept is dat ik muziek wil visualiseren met bijpassende lyrics teksten, k
 
 ## Features
 
-`Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
+De 'muziekplaat/ringen' draaien waardoor het lijkt alsof er muziek afspeelt. Ook wordt er gevarieerd met woorden. Linksbovenin is er een afwisseling van de woorden 'play' en 'playing'. Ook kun je met de muis de roze gevulde ring verplaatsen.
 
 ## Onderzoek & inspiratie
 Het concept vormde zich naar mate ik nadacht over vormen en wat hierbij zou kunnen passen. De uitwerking hiervoor zag ik als volgt voor me:
@@ -40,7 +40,7 @@ De bewegingen die ik basseer op het concept zijn:
 •	Rechte lijnen als een muziekblad die licht gaan golven zodra je er met je muis overheen gaat.  
 •	Een muzieknoot ‘morphen’ naar een andere noot.
 
-Kleur: vrolijke en bijzondere kleuren als turquoise, beige, limegroen, perzik, lichtroze etc. Hierdoor wordt het artwork wat exclusiever. 
+Kleur: vrolijke en bijzondere kleuren als beige, navyblue lichtroze etc. Hierdoor wordt het artwork wat exclusiever. 
 
 ## Voortang
 
@@ -56,7 +56,19 @@ Toch maar begonnen in P5 en wat gaan proberen. Veel lukte niet, aangezien ik het
 ### Week-4
 Er zijn veel mogelijkheden en toepassingen binnen P5. Ook merkte ik dat mijn stappenplan en concept uitwerking best ambitieus was voor een beginner die eigenlijk nog steeds vrij weinig van de code begrijpt. Het is jammer dat ik hierdoor beperkt wordt in m'n artwork en creativiteit. 
 
-Ik heb daarom ook het idee voor mijn artwork wat aangepast. Ik heb gekozen voor een soort van muziekplaat die voor de helft in het scherm aan het draaien is in de vorm van bewegende ringen. Deze ringen komen op meerdere plekken in het artwork terug en zijn dan ook geinspireerd uit de 'muziekplaat'.
+Ik heb daarom ook het idee voor mijn artwork wat aangepast. Ik heb gekozen voor een soort van muziekplaat die voor de helft in het scherm aan het draaien is in de vorm van bewegende ringen. Deze ringen komen op meerdere plekken in het artwork terug en zijn dan ook geinspireerd uit de 'muziekplaat'. Dit is uiteindelijk gelukt alleen kon ik mijn interactieve element niet toevoegen aan mijn basisbestand.
+
+### Opleverweek
+Uiteindelijk is het mij helaas nog steeds niet gelukt (wegens tijdtekort) om het interactieve gedeelte in het centrale bestand te zetten.
+
+De twee artworks zijn hier te bekijken:
+https://editor.p5js.org/nancyherwegh/sketches
+
+Het centrale artwork (mooiste te zien op fullscreen of meer dan 50% van het scherm):
+https://editor.p5js.org/nancyherwegh/sketches/hnmBjeMRW
+Het interactieve deel:
+https://editor.p5js.org/nancyherwegh/sketches/gl825v1hi
+
 
 
 ## Bronnenlijst
