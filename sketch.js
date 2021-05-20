@@ -1,14 +1,15 @@
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
 
- 
 let hue;
 const rings = [];
+let circleX = 100;
+let circleY = 100;
+let diameter = 100;
+
 
 function setup () {
   createCanvas(windowWidth, windowHeight);
   
+
  /* bewegende ringen */
   hue = random(0, 360);
   const count = floor(random(10, 20));
@@ -61,15 +62,19 @@ function draw () {
     );}
 
   
+  
+  
    /* teksten */
   {
   textFont("monospace",40);
   text("music is a mood changer", 20, 110);
     
-    let words = ['play','play','play','play','pause','pause', 'pause'];
+    let words = ['play','play','play','play','playing','playing', 'playing'];
 let word = random(words); // select random word
 text(word, 20, 50); // draw the word
   }
+  
+  
   
   /* ringen */
   {
@@ -85,14 +90,37 @@ text(word, 20, 50); // draw the word
   square(250, 350, 10, 90);
   square(400, 200, 20, 90);
   square(430, 210, 50, 90);
+    
+}
+  
+  
+  
+/* cirkel met muis interactief */
+
+// function setup() { 
+//   createCanvas(windowWidth, windowHeight);
+// } 
+
+function draw() { 
+  // background(238,230,215);
+    fill(214,187,181);
+noStroke();
+ 
+  
+ if(dist(circleX, circleY, mouseX, mouseY)< diameter/2 && mouseIsPressed)  {
+   fill(50);
+   circleX = mouseX;
+   circleY = mouseY;
+   }
+   
+  
+     ellipse(circleX, circleY, diameter,diameter);
+
 }
 
+function mouseReleased() {
+  console.log(mouseX, mouseY);
+};
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  angleMode(DEGREES);
-
-
-
-}
+  
 }
