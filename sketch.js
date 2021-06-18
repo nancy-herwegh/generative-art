@@ -1,14 +1,26 @@
-
 let hue;
+let song;
 const rings = [];
-let circleX = 100;
-let circleY = 100;
+let circleX = 400;
+let circleY = 400;
 let diameter = 100;
 
+function windowResized () {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
-function setup () {
+// function preload(){
+//   song = loadSound ('assets/jazzmusic-kevinmacleod.mp3');
+//     }
+
+
+function setup (){
   createCanvas(windowWidth, windowHeight);
   
+
+//   /* muziek */
+//   song = loadSound('assets/jazzmusic-kevinmacleod.mp3');
+// }
 
  /* bewegende ringen */
   hue = random(0, 360);
@@ -27,13 +39,18 @@ function setup () {
   }
 }
 
-function windowResized () {
-  resizeCanvas(windowWidth, windowHeight);
-}
 
 function draw () {
   background(238,230,215);
+  
+  // /* generative rondjes */
+  // let circleX = random(200, 600);
+  // let circleY = random(200, 600);
+  // // let circleSize = random(10, 100);
 
+
+
+ /* bewegende ringen */
   const minDim = Math.min(width, height);
   
   noFill();
@@ -61,66 +78,45 @@ function draw () {
       spin + arcAngle + Math.PI * arcLength
     );}
 
+
   
-  
-  
-   /* teksten */
+  /* ringen */
   {
+  square(20, 300, 100, 50);
+  square(120, 530, 100, 50);
+  square(400, 100, 100, 50);
+  square(160, 190, 100, 50);
+  square(250, 250, 100, 50);
+  square(600, 380, 100, 50);
+  square(500, 550, 100, 50);
+  square(100, 390, 100, 50);
+  square(370, 410, 100, 50);
+  square(250, 380, 100, 50);
+  square(780, 350, 100, 50);
+  square(600, 200, 100, 50);
+  square(900, 210, 100, 50);
+    
+}
+ /*generative paarse rondje*/
+      fill(195,113,174);
+noStroke();
+ 
+  
+ if(dist(circleX, circleY, mouseX, mouseY)< diameter/2 && mouseIsPressed)  {
+   fill(112,147,174);
+   circleX = mouseX;
+   circleY = mouseY;
+   }
+     ellipse(circleX, circleY,diameter);
+  
+ /* teksten */
+ {
   textFont("monospace",40);
-  text("music is a mood changer", 20, 110);
+  text("jazz music", 20, 110);
     
     let words = ['play','play','play','play','playing','playing', 'playing'];
 let word = random(words); // select random word
 text(word, 20, 50); // draw the word
   }
-  
-  
-  
-  /* ringen */
-  {
-  square(40, 300, 90, 50);
-  square(120, 150, 100, 50);
-  square(160, 190, 90, 50);
-  square(250, 250, 120, 90);
-  square(250, 380, 50, 90);
-  square(400, 380, 160, 90);
-  square(100, 390, 130, 90);
-  square(370, 410, 100, 50);
-  square(250, 380, 50, 90);
-  square(250, 350, 10, 90);
-  square(400, 200, 20, 90);
-  square(430, 210, 50, 90);
-    
-}
-  
-  
-  
-/* cirkel met muis interactief */
 
-// function setup() { 
-//   createCanvas(windowWidth, windowHeight);
-// } 
-
-function draw() { 
-  // background(238,230,215);
-    fill(214,187,181);
-noStroke();
- 
-  
- if(dist(circleX, circleY, mouseX, mouseY)< diameter/2 && mouseIsPressed)  {
-   fill(50);
-   circleX = mouseX;
-   circleY = mouseY;
-   }
-   
-  
-     ellipse(circleX, circleY, diameter,diameter);
-
-}
-
-function mouseReleased() {
-  console.log(mouseX, mouseY);
-};
-
-  
 }
