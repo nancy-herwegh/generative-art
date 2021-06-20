@@ -43,10 +43,10 @@ function setup (){
 function draw () {
   background(238,230,215);
   
-  // /* generative rondjes */
+  // /* generative rondjes */{
   // let circleX = random(200, 600);
   // let circleY = random(200, 600);
-  // // let circleSize = random(10, 100);
+  // let circleSize = random(10, 100);}
 
 
 
@@ -97,7 +97,7 @@ function draw () {
   square(900, 210, 100, 50);
     
 }
- /*generative paarse rondje*/
+ /*interactief paars rondje*/{
       fill(195,113,174);
 noStroke();
  
@@ -105,9 +105,9 @@ noStroke();
  if(dist(circleX, circleY, mouseX, mouseY)< diameter/2 && mouseIsPressed)  {
    fill(112,147,174);
    circleX = mouseX;
-   circleY = mouseY;
-   }
-     ellipse(circleX, circleY,diameter);
+   circleY = mouseY;}
+   
+     ellipse(circleX, circleY,diameter);}
   
  /* teksten */
  {
