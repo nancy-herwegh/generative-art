@@ -1,27 +1,45 @@
 let hue;
-let song;
+let audio;
+let img;
 const rings = [];
 let circleX = 400;
 let circleY = 400;
 let diameter = 100;
 
+// function preload(){
+ 
+//   /* afbeeldingen */
+//   //Load images
+//   let music0 = loadImage('images/franksinatra.jpeg');
+//   let music1 = loadImage('images/franksinatra.jpeg');
+//   let music2 = loadImage('images/natkingcole.jpeg');
+//   let music3 = loadImage('images/louisarmstrong.jpeg');
+//   picture = [music0, music1, music2, music3];
+  
+//   //Pick random number from array
+//   let number = Math.floor(Math.random() * (picture.length - 1) + 1);
+  
+//   //Random image
+//   img = picture[number];
+//  }
+ 
+
 function windowResized () {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-// function preload(){
-//   song = loadSound ('assets/jazzmusic-kevinmacleod.mp3');
-//     }
-
-
 function setup (){
   createCanvas(windowWidth, windowHeight);
+
+  /* muziek */
+    audio = createAudio('audio/jazzmusic-kevinmacleod.mp3');
   
-
-//   /* muziek */
-//   song = loadSound('assets/jazzmusic-kevinmacleod.mp3');
-// }
-
+    // here we set the element to autoplay
+    // The element will play as soon
+    // as it is able to do so.
+    audio.autoplay(true);
+  
+  
  /* bewegende ringen */
   hue = random(0, 360);
   const count = floor(random(10, 20));
@@ -43,10 +61,10 @@ function setup (){
 function draw () {
   background(238,230,215);
   
-  // /* generative rondjes */{
-  // let circleX = random(200, 600);
-  // let circleY = random(200, 600);
-  // let circleSize = random(10, 100);}
+  /* generative rondjes */{
+  let circleX = random(200, 600);
+  let circleY = random(200, 600);
+  let circleSize = random(10, 100);}
 
 
 
