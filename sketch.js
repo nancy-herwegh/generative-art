@@ -21,7 +21,6 @@ let diameter = 100;
 //   //Random image
 //   img = picture[number];
 //  }
- 
 
 function windowResized () {
   resizeCanvas(windowWidth, windowHeight);
@@ -32,13 +31,12 @@ function setup (){
 
   /* muziek */
     audio = createAudio('audio/jazzmusic-kevinmacleod.mp3');
-  
+    
     // here we set the element to autoplay
     // The element will play as soon
     // as it is able to do so.
     audio.autoplay(true);
-  
-  
+
  /* bewegende ringen */
   hue = random(0, 360);
   const count = floor(random(10, 20));
@@ -55,7 +53,6 @@ function setup (){
     });
   }
 }
-
 
 function draw () {
   background(238,230,215);
@@ -97,6 +94,8 @@ function draw () {
 
   /* ringen */
   {
+    fill(195,113,174);
+  
   square(20, 300, 100, 50);
   square(120, 530, 100, 50);
   square(400, 120, 100, 50);
@@ -134,6 +133,7 @@ noStroke();
     let words = ['Nat King Cole','Miles Davis','Ella Fitzgerald','Louis Armstrong','Frank Sinatra', 'Nina Simone'];
 let word = random(words); // select random word
 text(word, 20, 110); // draw the word
+
 
 ellipse(mouseX, mouseY, 50)
 
