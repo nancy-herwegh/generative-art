@@ -72,6 +72,11 @@ https://editor.p5js.org/nancyherwegh/sketches/gl825v1hi
 Github repository:
 https://github.com/nancy-herwegh/generative-art
 
+### Herkansing
+Ik heb voor de herkansing audio toegevoegd zodra het artwork geladen is. Ook is de muis een rondje geworden wat refereert aan de abstracte platen (rondjes). Ook heb ik nog een accentkleur in het kunstwerk verwerkt en is het iets persoonlijker geworden. 
+
+
+
 ## Bronnenlijst
 
 * https://p5js.org/reference/ 
