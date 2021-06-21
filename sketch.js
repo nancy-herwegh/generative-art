@@ -1,6 +1,5 @@
 let hue;
 let audio;
-let img;
 const rings = [];
 let circleX = 400;
 let circleY = 400;
@@ -61,10 +60,10 @@ function setup (){
 function draw () {
   background(238,230,215);
   
-  /* generative rondjes */{
-  let circleX = random(200, 600);
-  let circleY = random(200, 600);
-  let circleSize = random(10, 100);}
+  // /* generative rondjes */{
+  // let circleX = random(200, 600);
+  // let circleY = random(200, 600);
+  // let circleSize = random(10, 100);}
 
 
 
@@ -96,13 +95,11 @@ function draw () {
       spin + arcAngle + Math.PI * arcLength
     );}
 
-
-  
   /* ringen */
   {
   square(20, 300, 100, 50);
   square(120, 530, 100, 50);
-  square(400, 100, 100, 50);
+  square(400, 120, 100, 50);
   square(160, 190, 100, 50);
   square(250, 250, 100, 50);
   square(600, 380, 100, 50);
@@ -113,6 +110,8 @@ function draw () {
   square(780, 350, 100, 50);
   square(600, 200, 100, 50);
   square(900, 210, 100, 50);
+  square(900, 600, 100, 50);
+  square(700, 500, 100, 50);
     
 }
  /*interactief paars rondje*/{
@@ -129,12 +128,15 @@ noStroke();
   
  /* teksten */
  {
-  textFont("monospace",40);
-  text("jazz music", 20, 110);
+  textFont("monospace",30);
+  text("i love playing jazz music from the following artists", 20, 50);
     
-    let words = ['play','play','play','play','playing','playing', 'playing'];
+    let words = ['Nat King Cole','Miles Davis','Ella Fitzgerald','Louis Armstrong','Frank Sinatra', 'Nina Simone'];
 let word = random(words); // select random word
-text(word, 20, 50); // draw the word
+text(word, 20, 110); // draw the word
+
+ellipse(mouseX, mouseY, 50)
+
   }
 
 }
