@@ -73,7 +73,7 @@ Github repository:
 https://github.com/nancy-herwegh/generative-art
 
 ### Herkansing
-Ik heb voor de herkansing audio toegevoegd zodra het artwork geladen is. Ook is de muis een rondje geworden wat refereert aan de abstracte platen (rondjes). Ook heb ik nog een accentkleur in het kunstwerk verwerkt en is het iets persoonlijker geworden. 
+Ik heb voor de herkansing audio toegevoegd zodra het artwork geladen is. Ook is de muis een rondje geworden wat refereert aan de abstracte platen (rondjes). Ook heb ik nog een accentkleur in het kunstwerk verwerkt en is het iets persoonlijker geworden door de toegevoegde generatieve teksten. 
 
 
 
